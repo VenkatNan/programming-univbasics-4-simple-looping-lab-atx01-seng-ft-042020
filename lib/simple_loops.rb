@@ -8,8 +8,7 @@ end
 
 def loop_message_n_times(string,integer)
   count=0
-  n= integer
-  while count < n
+  while count< integer
     puts string
     count += 1
   end
